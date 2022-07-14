@@ -23,3 +23,9 @@ button {
     font-size: 3em;
     width: 5em;
 }
+button.plus::before {
+    content: '+';
+}
+button.minus::before {
+    content: '-';
+}
